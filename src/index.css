@@ -52,3 +52,13 @@ body {
 .cursor {
   color: gray;
 }
+
+.texture-selector {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(5);
+}
+
+.texture-selector img.active {
+  border: 2px solid red;
+}
